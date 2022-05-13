@@ -1,0 +1,32 @@
+{
+  "name": "bitkub",
+  "version": "1.0.0",
+  "description": "Connect bitkub api",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --experimental-modules --es-module-specifier-resolution=node index.js",
+    "format": "prettier --check .",
+    "format:write": "prettier --write .",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["bitkub", "rest-api"],
+  "author": {
+    "name": "uatthaphon",
+    "email": "u.atthaphon@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "prettier": "^2.6.2"
+  }
+}
